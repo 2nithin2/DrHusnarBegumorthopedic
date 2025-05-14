@@ -19,8 +19,8 @@ export interface Testimonial {
 export const doctorProfileData = {
   name: "Dr. Husnara Begum",
   qualifications: ["BPT", "MPT (Orthopedic Specialist)", "MD in Cupping Therapy", "Diploma in Acupuncture"],
-  imageUrl: "https://storage.googleapis.com/project-spark-files_prod/byRImKzUuLzaq1E0R9G1/generated_images/1f8c1464-2581-4114-bc35-9f3e3776b183.png",
-  imageAiHint: "doctor illustration",
+  imageUrl: "https://img.freepik.com/free-photo/portrait-3d-female-doctor_23-2151107332.jpg",
+  imageAiHint: "female doctor portrait",
   bio: "A dedicated and compassionate physiotherapist with extensive experience. Dr. Begum specializes in orthopedic conditions, post-surgical rehabilitation, neurological disorders, pediatric cases, and pulmonology-related issues. She is committed to providing patient-centered care, integrating modern physiotherapy techniques with traditional therapies like cupping and acupuncture to achieve optimal patient outcomes. Home visits are also available."
 };
 

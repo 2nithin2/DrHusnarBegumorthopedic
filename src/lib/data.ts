@@ -36,7 +36,7 @@ export const servicesData: Service[] = [
 
 export const appointmentData = {
   bookingInfo: "Book your appointment or schedule a home visit easily through Apollo247, our Google Profile, or Google Calendar.",
-  apolloLink: "https://apollo247.onelink.me/MGY5/r4upl6qr", 
+  apolloLink: "https://www.apollo247.com/doctors/ptshaik-husnara-begum-ed783776-f6a2-4780-a53e-12782c799ee0", 
   practoLink: "https://g.co/kgs/gwknM75", // This is now the Google Profile link
   googleCalendarLink: "https://calendar.google.com/", 
   qrCodeUrl: "https://picsum.photos/seed/bookingqr/150/150",

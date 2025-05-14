@@ -1,3 +1,4 @@
+
 'use client';
 
 import type { HTMLAttributes } from 'react';
@@ -14,10 +15,10 @@ export function SectionWrapper({
   children,
   className,
   as: Component = 'section',
-  initial = { opacity: 0, y: 30 },
-  whileInView = { opacity: 1, y: 0 },
-  viewport = { once: true, amount: 0.2 },
-  transition = { duration: 0.4, ease: 'easeOut' }, // Adjusted duration
+  initial = { opacity: 0, y: 50, scale: 0.95 }, // Updated initial state
+  whileInView = { opacity: 1, y: 0, scale: 1 }, // Updated whileInView state
+  viewport = { once: false, amount: 0.2 }, // Updated viewport to allow re-animation
+  transition = { duration: 0.5, ease: 'easeOut' }, // Updated transition
   ...props
 }: SectionWrapperProps) {
   const MotionComponent = motion[Component];

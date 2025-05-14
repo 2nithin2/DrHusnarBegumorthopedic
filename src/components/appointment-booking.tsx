@@ -12,8 +12,8 @@ export function AppointmentBooking() {
     <SectionWrapper id="book-appointment" aria-labelledby="appointment-heading">
       <div className="text-center space-y-8">
         <div className="space-y-3">
-          <div className="flex items-center justify-center gap-2">
-            <CalendarDays className="h-8 w-8 text-primary" />
+          <div className="group flex items-center justify-center gap-2 cursor-default">
+            <CalendarDays className="h-8 w-8 text-primary group-hover:scale-110 transition-transform duration-300 ease-out" />
             <h2 id="appointment-heading" className="text-3xl font-bold tracking-tight sm:text-4xl text-foreground">
               Book Your Appointment
             </h2>
@@ -50,7 +50,7 @@ export function AppointmentBooking() {
           
           <Card className="shadow-lg">
             <CardHeader>
-              <CardTitle className="text-xl flex items-center gap-2 justify-center"><QrCode className="w-6 h-6" /> Scan to Book</CardTitle>
+              <CardTitle className="text-xl flex items-center gap-2 justify-center group cursor-default"><QrCode className="w-6 h-6 group-hover:scale-110 transition-transform duration-300 ease-out" /> Scan to Book</CardTitle>
               <CardDescription>Quickly access booking options by scanning the QR code with your mobile device.</CardDescription>
             </CardHeader>
             <CardContent className="flex justify-center">

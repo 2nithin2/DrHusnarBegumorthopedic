@@ -39,8 +39,8 @@ export function TestimonialsSection() {
     <SectionWrapper id="testimonials" aria-labelledby="testimonials-heading" className="bg-muted/40">
       <div className="space-y-8">
         <div className="text-center space-y-3">
-          <div className="flex items-center justify-center gap-2">
-            <Users className="h-8 w-8 text-primary" />
+          <div className="group flex items-center justify-center gap-2 cursor-default">
+            <Users className="h-8 w-8 text-primary group-hover:scale-110 transition-transform duration-300 ease-out" />
             <h2 id="testimonials-heading" className="text-3xl font-bold tracking-tight sm:text-4xl text-foreground">
               What Our Patients Say
             </h2>

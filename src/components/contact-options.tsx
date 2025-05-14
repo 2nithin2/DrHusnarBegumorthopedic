@@ -10,8 +10,8 @@ export function ContactOptions() {
     <SectionWrapper id="contact" aria-labelledby="contact-heading">
       <div className="space-y-8">
         <div className="text-center space-y-3">
-           <div className="flex items-center justify-center gap-2">
-            <Contact className="h-8 w-8 text-primary" />
+           <div className="group flex items-center justify-center gap-2 cursor-default">
+            <Contact className="h-8 w-8 text-primary group-hover:scale-110 transition-transform duration-300 ease-out" />
             <h2 id="contact-heading" className="text-3xl font-bold tracking-tight sm:text-4xl text-foreground">
               Get In Touch
             </h2>

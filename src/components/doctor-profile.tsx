@@ -25,8 +25,8 @@ export function DoctorProfile() {
           </Card>
         </div>
         <div className="space-y-6 text-center md:text-left">
-          <div className="flex items-center justify-center md:justify-start gap-2">
-             <UserCircle className="h-8 w-8 text-primary" />
+          <div className="group flex items-center justify-center md:justify-start gap-2 cursor-default">
+             <UserCircle className="h-8 w-8 text-primary group-hover:scale-110 transition-transform duration-300 ease-out" />
              <h2 id="profile-heading" className="text-3xl font-bold tracking-tight sm:text-4xl text-foreground">
                 Meet Dr. Husnara Begum
              </h2>

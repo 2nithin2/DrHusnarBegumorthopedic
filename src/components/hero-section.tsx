@@ -59,7 +59,7 @@ export function HeroSection() {
           </div>
 
           {/* Image */}
-          <div className="flex justify-center items-center order-first md:order-last">
+          <div className="flex justify-center items-center order-first md:order-last p-4">
             <Image
               src={doctorProfileData.imageUrl}
               alt={`Portrait of ${doctorProfileData.name}`}

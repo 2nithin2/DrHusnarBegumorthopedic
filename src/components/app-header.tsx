@@ -8,7 +8,7 @@ export function AppHeader() {
         <Link href="/" className="flex items-center gap-2" prefetch={false}>
           <Stethoscope className="h-7 w-7 text-primary" />
           <span className="text-xl font-semibold tracking-tight text-foreground">
-            Dr. Begum's Care Hub
+            Dr. Husnara Begum
           </span>
         </Link>
         {/* Navigation links can be added here if needed in the future */}

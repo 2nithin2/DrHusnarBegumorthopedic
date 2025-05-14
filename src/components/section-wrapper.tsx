@@ -1,3 +1,5 @@
+'use client';
+
 import type { HTMLAttributes } from 'react';
 import { cn } from '@/lib/utils';
 import { motion, type MotionProps } from 'framer-motion';

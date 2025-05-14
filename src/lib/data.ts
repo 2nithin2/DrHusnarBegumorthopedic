@@ -39,8 +39,6 @@ export const appointmentData = {
   apolloLink: "https://www.apollo247.com/doctors/ptshaik-husnara-begum-ed783776-f6a2-4780-a53e-12782c799ee0", 
   practoLink: "https://g.co/kgs/gwknM75", // This is now the Google Profile link
   googleCalendarLink: "https://calendar.google.com/", 
-  qrCodeUrl: "https://picsum.photos/seed/bookingqr/150/150",
-  qrCodeAiHint: "QR code"
 };
 
 export const testimonialsData: Testimonial[] = [

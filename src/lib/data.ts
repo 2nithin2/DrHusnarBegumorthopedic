@@ -1,3 +1,4 @@
+
 import type { LucideIcon } from 'lucide-react';
 
 export interface Service {
@@ -17,10 +18,10 @@ export interface Testimonial {
 
 export const doctorProfileData = {
   name: "Dr. Husnara Begum",
-  qualifications: ["BPT", "MPT", "MD in Cupping Therapy", "MD in Acupuncture"],
+  qualifications: ["BPT", "MPT (Orthopedic Specialist)", "MD in Cupping Therapy", "Diploma in Acupuncture"],
   imageUrl: "https://picsum.photos/seed/drhusnara/300/300",
   imageAiHint: "professional doctor woman",
-  bio: "A dedicated and compassionate physiotherapist with extensive experience in treating a wide range of musculoskeletal and neurological conditions. Dr. Begum is committed to providing patient-centered care and utilizes a holistic approach, integrating modern physiotherapy techniques with traditional therapies like cupping and acupuncture to achieve optimal patient outcomes."
+  bio: "A dedicated and compassionate physiotherapist with extensive experience. Dr. Begum specializes in orthopedic conditions, post-surgical rehabilitation, neurological disorders, pediatric cases, and pulmonology-related issues. She is committed to providing patient-centered care, integrating modern physiotherapy techniques with traditional therapies like cupping and acupuncture to achieve optimal patient outcomes. Home visits are also available."
 };
 
 export const servicesData: Service[] = [
@@ -34,10 +35,10 @@ export const servicesData: Service[] = [
 ];
 
 export const appointmentData = {
-  bookingInfo: "Book your appointment easily through Apollo247, Practo, or Google Calendar.",
-  apolloLink: "https://www.apollo247.com/", // Placeholder
-  practoLink: "https://www.practo.com/", // Placeholder
-  googleCalendarLink: "https://calendar.google.com/", // Placeholder
+  bookingInfo: "Book your appointment or schedule a home visit easily through Apollo247, our Google Profile, or Google Calendar.",
+  apolloLink: "https://apollo247.onelink.me/MGY5/r4upl6qr", 
+  practoLink: "https://g.co/kgs/gwknM75", // This is now the Google Profile link
+  googleCalendarLink: "https://calendar.google.com/", 
   qrCodeUrl: "https://picsum.photos/seed/bookingqr/150/150",
   qrCodeAiHint: "QR code"
 };
@@ -49,8 +50,8 @@ export const testimonialsData: Testimonial[] = [
 ];
 
 export const contactData = {
-  phone: "+91 12345 67890",
+  phone: "+91 70930 98048",
   email: "dr.begum.care@example.com",
-  whatsappLink: "https://wa.me/911234567890", // Replace with actual number, e.g. https://wa.me/919876543210
+  whatsappLink: "https://wa.me/917093098048", 
   address: "123 Wellness Street, HealthCity, India"
 };

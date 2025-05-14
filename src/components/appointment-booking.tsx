@@ -1,3 +1,4 @@
+
 import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
@@ -36,7 +37,7 @@ export function AppointmentBooking() {
               </Button>
               <Button asChild variant="secondary" size="lg" className="w-full">
                 <Link href={appointmentData.practoLink} target="_blank" rel="noopener noreferrer">
-                  Book on Practo
+                  View Google Profile
                 </Link>
               </Button>
               <Button asChild variant="outline" size="lg" className="w-full">

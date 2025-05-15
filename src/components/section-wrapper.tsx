@@ -5,7 +5,7 @@ import type { HTMLAttributes } from 'react';
 import { cn } from '@/lib/utils';
 import { motion, type MotionProps } from 'framer-motion';
 
-interface SectionWrapperProps extends HTMLAttributes<HTMLElement>, MotionProps {
+interface SectionWrapperProps extends Omit<HTMLAttributes<HTMLElement>, 'onAnimationStart'>, MotionProps {
   children: React.ReactNode;
   className?: string;
   as?: keyof JSX.IntrinsicElements;
@@ -15,10 +15,10 @@ export function SectionWrapper({
   children,
   className,
   as: Component = 'section',
-  initial = { opacity: 0, y: 50, scale: 0.95 }, // Updated initial state
-  whileInView = { opacity: 1, y: 0, scale: 1 }, // Updated whileInView state
-  viewport = { once: false, amount: 0.2 }, // Updated viewport to allow re-animation
-  transition = { duration: 0.5, ease: 'easeOut' }, // Updated transition
+  initial = { opacity: 0, y: 50, scale: 0.95 },
+  whileInView = { opacity: 1, y: 0, scale: 1 },
+  viewport = { once: false, amount: 0.2 },
+  transition = { duration: 0.5, ease: 'easeOut' },
   ...props
 }: SectionWrapperProps) {
   const MotionComponent = motion[Component];
